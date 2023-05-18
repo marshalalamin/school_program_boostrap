@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section start */
+.hero{
+
+background: #F0FFF0;
+
+padding: 50px 0px;
+}
+.btn_search{
+
+background: #21B573;
+
+border-radius: 50px;
+margin-left: 10px;
+color: #ffffff;
+
+font-size: 15px;
+
+text-transform: capitalize;
+transition: 0.5s all ease-in-out;
+transform: scale(1);
+}
+.btn_search:hover{
+    transform: scale(0);
+    background-color: #FBD15B
+}
+
+a.nav-link {
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize;
+    
+    position: relative;
+}
+a.nav-link::before{
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 2px;
+   width: 0px;
+   background-color: #FBD15B;
+   padding: 0 !important;
+   transition: 0.4s all ease-in-out;
+   transform: scale(1);
+    }
+a.nav-link:hover::before{
+    transform: scale(1);
+width: 100%;
+}
+
+.bannar_content span {
+    color: #21B573;
+}
+.bannar_content h6{
+    
+color: #FD511A;
+    
+font-size: 16px;
+    
+font-weight: 400;
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+font-style: normal;
+}
+.bannar_content h1{
+    
+font-style: normal;
+    
+font-weight: 700;
+    
+font-size: 48px;
+    
+line-height: 60px;
+    
+color: #000000;
+}
+.bannar_content p{
+    
+font-family: 'Poppins';
+    
+font-style: normal;
+    
+font-weight: 400;
+    
+font-size: 16px;
+    
+line-height: 35px;
+}
+.btn_get{
+    
+background: #21B573;
+    
+border: 1px solid #000000;
+    
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+border-radius: 33px;
+    
+outline: none;
+    
+resize: none;
+    
+text-transform: capitalize;
+    transform: scale(1);
+color: white;
+transition: 0.5s all ease-in-out;
+
+
+}
+
+
+.btn_get:hover{
+
+ color: #FBD15B;
+    transform: scale(1);
+}
+
+/* header section end */
+
+/* feature studen section start  */
+.feature{
+    padding: 50px 0px;
+    background-color: #ffffff;
+}
+.img{
+    width: 66px;
+    height: 85px;
+    text-align: center;
+    margin: auto;
+}
+.card-body{
+
+text-align: center;
+}
+.card-body h3{
+    
+font-style: normal;
+    
+font-weight: 500;
+    
+font-size: 24px;
+    
+line-height: 36px;
+    
+margin-top: 10px;
+    
+text-transform: capitalize;
+}
+.card-body p{
+    
+font-style: normal;
+    
+font-weight: 400;
+    
+font-size: 16px;
+    
+line-height: 24px;
+}
+.card {
+    background: #F8FFFB;
+    padding: 15px 0px;
+    transform: scale(1);
+    transition: 0.5s all ease-in-out;
+  
+    
+}
+.card:hover{ transform: scale(0);
+  
+    border: 2px solid #0C8CE9;
+   
+}
+.rotate{
+    background: #F8FFFB;
+    padding: 15px 0px;
+    transform: scale(1);
+    transition: 0.5s all ease-in-out;
+}
+.rotate:hover{ transform: scale(0);
+    border: 2px solid #B16F6F;
+    transform: rotate(90deg);
+   
+}
+/* feature studen section end  */
+
+/* ============================online course section start  */
+.course{
+    
+padding: 50px 0;
+}
+
+.student-img{
+    width: 292px;
+    height: 210px;
+    margin: auto;
+    animation: updown 3s linear infinite;
+}
+.card-item{width: 370px;
+    height: 450px;
+    left: 535px;
+    top: 1102px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 30px 0px;
+    animation: updown 2s linear infinite;
+    transition: 0.4s all ease-in-out;
+}
+.card-item:hover{
+    border: 2px solid #0C8CE9;
+    transform: scale(1.1);
+    transform: matrix(1,0,1,1,2);
+}
+
+.card-item h3{
+    
+font-style: normal;
+    
+font-weight: 500;
+    
+font-size: 24px;
+    
+line-height: 36px;
+    
+text-align: center;
+    
+color: #413960;
+    
+margin-top: 10px;
+    
+text-transform: capitalize;
+}
+.card-item p{
+    
+font-style: normal;
+    
+font-weight: 400;
+    
+font-size: 16px;
+    
+line-height: 24px;
+    
+text-align: center;
+    
+text-transform: capitalize;
+    
+margin-top: 10px;
+}
+.btn_buy{
+width: 137px;
+height: 35px;
+left: 158px;
+top: 1461px;
+background: #21B573;
+border-radius: 33px;
+margin: auto;
+margin-left: 15px;
+color: #ffffff;
+text-transform: capitalize;
+transition: 0.4s all ease-in-out ;
+}
+
+.btn_buy:hover{
+    background-color: #F0FFF0;
+}
+.font{ height: 10px;
+    font-size: 15px;
+    align-items: center;
+}
+.online_course{
+
+}
+.animetion {
+    position: relative;
+    
+
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+    
+
+   
+}
+@keyframes updown {
+    0%{
+        bottom: 10px;
+    }
+    100%{
+        bottom: 20px;
+    }
+}
+.animetion_three{
+    animation: alternate;
+}
+.animetion_three { position: relative;
+    
+
+    animation: down 1s linear infinite;
+    animation-direction: alternate;
+    
+
+}
+@keyframes  down{
+    0%{
+        top: 1px;
+    }
+    100%{
+        top: 20px;
+    }
+}
+
+/*========================= online course section start  */
+/* testimonial section start */
+
+.heading h2{
+    
+}
+.testimonial_pic{
+
+width: 90px;
+
+margin: auto;
+
+border: 2px solid #C4C4C4;
+
+border-radius: 50%;
+
+overflow: hidden;
+
+height: 90px;
+
+margin-bottom: 15px;
+}
+
+.testimonial p{
+
+color: 000000;
+
+font-size: 16px;
+
+line-height: 30px;
+}
+/* testimonial section start */
+
+/* <!--========================== section foooter start -- */
+footer{
+
+background: #282531;
+
+color: #ffffff;
+
+padding: 25px 10px;
+}
+footer p{
+    
+font-size: 16px;
+    
+font-size: 400;
+    
+line-height: 30px;
+    
+font-style: normal;
+}
+footer ul{
+    
+list-style: none;
+    
+margin: 0;
+    
+padding: 0;
+}
+footer ul li{
+    
+font-size: 16px;
+    
+line-height: 30px;
+    
+font-weight: 200;
+}
+footer ul li:first-child{
+    font-weight: 400;
+}
+.font_wide p{
+   
+    font-size: 15px;
+    color: #CDCDCD;
+    font-weight: 400;
+}
+/* <!--========================== section foooter start -- */
